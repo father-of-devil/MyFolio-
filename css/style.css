@@ -1,0 +1,263 @@
+/* COMMON CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.button {
+  background-color: #cfc91d;
+  color: #0b1016;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 19px 43px;
+  display: inline-block;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: 800;
+  font-size: 46px;
+  color: #02918c;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.heading p {
+  font-size: 16px;
+  color: #7e8287;
+}
+
+/* COMMON CSS END */
+
+/* NAV */
+nav {
+  background-color: #02918c;
+}
+
+nav .logo {
+  width: 40%;
+}
+nav .menu {
+  width: 60%;
+  text-align: right;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  display: inline-block;
+  padding: 26px 25px;
+}
+
+/* NAV END */
+
+/* banner */
+#banner {
+  background-color: rgba(0, 0, 0, 0.34);
+  background-image: url(../images/banner.jpg);
+  padding: 210px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.banner_cnt {
+  text-align: center;
+}
+
+.banner_cnt h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.banner_cnt h1 {
+  font-weight: 800;
+  font-size: 68px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.banner_cnt p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner_cnt img {
+  display: block;
+  margin: 50px auto;
+}
+
+.banner_cnt a {
+}
+
+/* banner end */
+
+/* ABOUT STARTS */
+#about {
+  padding: 98px 0;
+}
+
+#about .details {
+  font-size: 16px;
+  color: #7e8287;
+  text-align: center;
+  padding: 0 118px;
+  margin: 50px 0;
+}
+
+
+#about .details span {
+  font-weight: 800;
+  font-size: 23px;
+  color: #7e8287;
+}
+
+#about .about_card {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #aaa;
+  padding: 40px 0;
+}
+
+#about .about_card:last-child {
+  border: none;
+}
+
+#about .about_card span {
+  font-size: 30px;
+  color: #02918c;
+}
+
+#about .about_card h4 {
+  font-size: 16px;
+  color: #7e8287;
+  font-weight: 800;
+  margin: 28px 0;
+}
+
+#about .about_card p {
+  font-size: 11px;
+  color: #7e8287;
+  padding: 0 50px;
+}
+
+/* ABOUT ENDS */
+
+/* WORK STARTS HERE */
+#work .work_card {
+  width: 25%;
+  position: relative;
+}
+
+#work .work_card img {
+  width: 100%;
+  display: block;
+}
+
+.work_card .overlay {
+  background-color: #02918c7e;
+  position: absolute;
+  inset: 20px;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  opacity: 0;
+  transition: 0.35s;
+  margin-top: 100px;
+}
+
+.work_card:hover .overlay {
+  opacity: 1;
+  margin-top: 0px;
+}
+
+/* WORK ENDS HERE */
+
+/* SERVICE STARTS HERE */
+#service{
+  background-image: url(../images/services.jpg);
+  background-size: cover;
+  padding: 100px 0;
+}
+#service .service_left {
+  width: 50%;
+  
+}
+
+#service .heading {
+  text-align: left;
+}
+
+.service_card{
+  width: 50%;
+}
+
+
+/* SERVICE ENDS HERE */
+
+
+/* contact STARTS HERE */
+#contact{
+  background-color: #0a0a0b;
+  padding: 98px 0;
+}
+
+.form-input{
+  width: 640px;
+  margin: auto;
+  
+}
+
+.form-input input{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+
+
+/* contact ENDS HERE */
